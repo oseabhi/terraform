@@ -5,25 +5,23 @@ pipeline {
     stage('build'){
       steps{
       sh 'echo Hello'
-        
       }
-        stage('test'){
+    }
+    stage('package'){
       steps{
       sh 'echo Hello'
-        
       }
-            stage('deploy'){
+    }
+    stage('deploy'){
       steps{
       sh 'echo Hello'
-        
       }
-                stage('artifact'){
+    }
+    stage('artifact'){
       steps{
       sh 'echo Hello'
-        
       }
     }
   }
   
-}
-  
+}  
